@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+}
+.head-1{
+    padding: 2rem;
+    background: white;
+}
+.content-1{
+    height: 100%;
+}
+
+.foot{
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    width: 100%;
+}
+
+.my-card{
+    width: 19rem;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    /* border-top-left-radius: 125px; */
+    font-size: 13px;
+    line-height: 20px;
+
+}
+.row-1{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  justify-content: space-between;
+
+}
+.col-footer{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col-footer p{
+  text-transform: capitalize;
+}
+.col-footer:nth-child(2),.col-footer:nth-child(3){
+  flex-basis: 15%;
+  padding: 10px;
+}
+
+.col-footer h2{
+  width: fit-content;
+  margin-bottom: 40px;
+  position:relative;
+
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin:20px 0;
+}
+
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.footerform{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+
+}
+.btn{
+    width:5rem ;
+    background: blue;
+    color: white;
+    outline: none;
+    border: white;
+    cursor: pointer;
+    transition:1s all ease-in-out;
+    border-radius: 4px;
+    z-index: 1;
+    text-align: center;
+
+}
+.btn:hover{
+    background: rgba(0, 0, 255,0.7);
+    color: white;
+
+}
+.footerform input{
+   width: 100%;
+   background: transparent;
+   color: #ccc;
+   border:0;
+   outline: none;
+}
+
+footer hr{
+  width: 95%;
+  border:0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+
+}
+.copyright{
+  text-align: center;
+}
+.underline{
+  width: 100%;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  overflow: hidden;
+}
+.underline span{
+  width: 15px;
+  height: 100%;
+  background: #ccc;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 2s linear infinite;
+
+}
+@keyframes moving {
+  0%{
+    left: -20px;
+  }
+  100%{
+    left: 100%;
+  }
+
+}
+.footer-agency{
+  color: rgba(245, 245, 245,0.7);
+
+}
